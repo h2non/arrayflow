@@ -67,11 +67,7 @@ function forEach(iterator) {
 
 function map(iterator) {
   var buf = []
-
-  function task(val, i, arr, stop) {
-    buf.push(iterator(val, i, arr, stop))
-  }
-
+  var task = buf.push.bind(buf)
   var result = iteratorProxy(this, 'map', task, iterator)
   return result !== undefined ? result : buf
 }
