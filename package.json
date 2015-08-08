@@ -1,0 +1,25 @@
+{
+  "name": "arrayflow",
+  "description": "Vanilla JavaScript array iterators with control-flow capability. That's all.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "h2non/arrayflow",
+  "author": "Tomas Aparicio",
+  "main": "./arrayflow.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --ui tdd test/*",
+    "browser": "./node_modules/.bin/uglifyjs arrayflow.js --mangle --preamble '/* ArrayFlow.js v.0.1 - MIT License - https://github.com/h2non/arrayflow */' --source-map arrayflow.min.js.map --source-map-url http://cdn.rawgit.com/h2non/arrayflow/master/arrayflow.min.js.map > arrayflow.min.js"
+  },
+  "keywords": [
+    "array",
+    "control",
+    "flow",
+    "break",
+    "iterator"
+  ],
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "uglify-js": "^2.4.24"
+  }
+}

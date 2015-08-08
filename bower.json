@@ -1,0 +1,27 @@
+{
+  "name": "arrayflow",
+  "description": "Vanilla JavaScript array iterators with control-flow capability. That's all.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "h2non/arrayflow",
+  "author": "Tomas Aparicio",
+  "main": "./arrayflow.js",
+  "keywords": [
+    "array",
+    "control",
+    "flow",
+    "break",
+    "iterator"
+  ],
+  "ignore": [
+    "**/.*",
+    ".*",
+    "*.md",
+    "test",
+    ".editorconfig",
+    ".gitignore",
+    ".travis.yml",
+    ".npmignore",
+    "package.json"
+  ]
+}
