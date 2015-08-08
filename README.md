@@ -1,4 +1,4 @@
-# arrayflow [![Build Status](https://api.travis-ci.org/h2non/arrayflow.js.svg?branch=master&style=flat)](https://travis-ci.org/h2non/arrayflow) [![NPM](https://img.shields.io/npm/v/arrayflow.svg)](https://www.npmjs.org/package/arrayflow)
+# arrayflow [![Build Status](https://api.travis-ci.org/h2non/arrayflow.svg?branch=master&style=flat)](https://travis-ci.org/h2non/arrayflow) [![NPM](https://img.shields.io/npm/v/arrayflow.svg)](https://www.npmjs.org/package/arrayflow)
 
 [ECMAScript 5.1](https://es5.github.io/#x15.4.1) native `Array.prototype` iterators implemention with control-flow capatibility. Same functional fun, same imperative control flow.
 
