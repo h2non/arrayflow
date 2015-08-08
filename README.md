@@ -4,7 +4,7 @@
 
 Behavior are strictly maintained with the native implementation.
 
-**Rational note**: I thought about this actually a long time ago, and was suprised that there none already outside (or even hard to find), so here is my tiny contribution.
+**Rational note**: I thought about this actually a long time ago, and was suprised that there nothing already outside (or maybe it's really hard to find), so I've decided to do this crazy idea by my own.
 
 ## Iterators
 
@@ -62,7 +62,7 @@ bower install arrayflow
 
 Loading the script via CDN:
 ```bash
-<script src="//cdn.rawgit.com/h2non/arrayflow/0.1.0/arrayflow.js"></script>
+<script src="//cdn.rawgit.com/h2non/arrayflow/master/arrayflow.js"></script>
 ```
 
 ## API
